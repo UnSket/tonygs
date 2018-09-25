@@ -2,11 +2,13 @@ import {RouterModule, Routes} from '@angular/router';
 import {NgModule} from '@angular/core';
 import {HomeComponent} from './modules/main/home/home.component';
 import {ShellComponent} from './modules/main/shell/shell.component';
+import {BioComponent} from './modules/main/bio/bio.component';
 
 // Схема корневого роутинга
 const appRoutes: Routes = [
   { path: '', component: ShellComponent, children: [
       { path: 'home', component: HomeComponent},
+      { path: 'bio', component: BioComponent},
       { path: '**', redirectTo: 'home'}
   ]}
 ];
