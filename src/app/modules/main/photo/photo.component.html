@@ -1,0 +1,10 @@
+<div class="wrapper">
+  <div class="music-wrapper" *ngFor="let photo of photos">
+    <div class="paper">
+      <div class="image" [style.backgroundImage]="'url(' + photo.imgUrl + ')'"></div>
+    </div>
+    <div class="description">
+      <p>{{photo.description}}</p>
+    </div>
+  </div >
+</div>

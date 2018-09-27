@@ -5,12 +5,14 @@ import { HeaderComponent } from './header/header.component';
 import { ShellComponent } from './shell/shell.component';
 import {AppRoutingModel} from '../../app.routing';
 import { BioComponent } from './bio/bio.component';
+import { MusicComponent } from './music/music.component';
+import { PhotoComponent } from './photo/photo.component';
 
 @NgModule({
   imports: [
     CommonModule,
     AppRoutingModel
   ],
-  declarations: [HomeComponent, HeaderComponent, ShellComponent, BioComponent]
+  declarations: [HomeComponent, HeaderComponent, ShellComponent, BioComponent, MusicComponent, PhotoComponent]
 })
 export class MainModule { }

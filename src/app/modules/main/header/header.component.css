@@ -94,7 +94,7 @@
     font-size: 44px;
     padding: 30px;
   }
-  .menu > *:not(.main-logo):hover {
+  .menu > *:not(.main-logo):hover, .menu .active {
     background: rgba(0, 0, 0, .8);
     transform: scale(1.05) translateX(4%);
     cursor: pointer;
@@ -106,5 +106,15 @@
   }
   .links a {
     margin: 0 5px 10px;
+  }
+}
+@media screen and (max-width: 500px){
+  .links a {
+    padding: 7px;
+    margin: 0 3px 10px;
+    font-size: 18px;
+  }
+  .menu {
+    font-size: 18px;
   }
 }
