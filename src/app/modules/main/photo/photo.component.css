@@ -44,4 +44,7 @@
   .wrapper > * {
     flex-basis: 80%;
   }
+  .wrapper {
+    justify-content: center;
+  }
 }

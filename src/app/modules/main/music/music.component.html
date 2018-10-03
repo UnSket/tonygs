@@ -2,7 +2,7 @@
   <div class="music-wrapper" *ngFor="let track of musicSheet">
     <div class="paper">
       <div class="image" [style.backgroundImage]="'url(' + track.imgUrl + ')'"></div>
-      <a [href]="track.link" class="links">
+      <a target="_blank" [href]="track.link" class="links">
         <i class="material-icons">link</i>
       </a>
     </div>

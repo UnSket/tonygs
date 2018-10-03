@@ -32,5 +32,12 @@
   }
   .wrapper .content {
     box-shadow: none;
+    background: url('/assets/images/homebg.jpg') left top;
+    background-size: cover;
+  }
+  .wrapper .text {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, .6);
+    border: none;
   }
 }

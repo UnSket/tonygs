@@ -1,5 +1,5 @@
 .bg {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -11,6 +11,7 @@
 .header {
   width: 100%;
   background: rgba(0, 0, 0, .6);
+  position: relative;
 }
 .menu {
   display: flex;
@@ -84,8 +85,8 @@
     overflow: hidden;
   }
   .menu {
-    flex-direction: column;
-    align-items: unset;
+    align-items: center;
+    flex-wrap: wrap;
   }
   .menu .bio {
     order: 2;
@@ -93,6 +94,8 @@
   .menu .main-logo {
     font-size: 44px;
     padding: 30px;
+    flex-basis: 100%;
+    background: none;
   }
   .menu > *:not(.main-logo):hover, .menu .active {
     background: rgba(0, 0, 0, .8);
@@ -100,7 +103,6 @@
     cursor: pointer;
   }
   .links {
-    left: 10px;
     bottom: 0;
     flex-wrap: wrap;
   }
