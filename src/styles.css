@@ -19,6 +19,9 @@ body {
 body > div {
   display: none !important;
 }
+img[alt='www.000webhost.com'] {
+  display: none;
+}
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
   .container{

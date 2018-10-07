@@ -1,0 +1,48 @@
+:host {
+  position: relative;
+}
+footer {
+  text-align: center;
+  background: black;
+  padding: 20px 0;
+  box-shadow: 0 -6px 18px 0px black;
+}
+.links {
+  display: flex;
+  justify-content: center;
+}
+.links a {
+  padding: 10px;
+  margin: 0 5px;
+  z-index: 1;
+  border-radius: 5px;
+  text-decoration: none;
+  background: rgba(0, 0, 0, .6);
+  transition: transform 300ms ease-in-out, background 300ms ease-in-out, color 300ms ease-in, border-color 300ms ease-in;
+}
+.links a img {
+  height: 26px;
+}
+.links a:hover {
+  transform: scale(1.06) translateY(-3%);
+  background-color: rgba(193, 0, 0, 0.51);
+}
+footer > img {
+  height: 100px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 769px) {
+  .links {
+    flex-wrap: wrap;
+  }
+  .links a {
+    margin: 0 5px 10px;
+  }
+}
+@media screen and (max-width: 500px){
+  .links a {
+    padding: 7px;
+    margin: 0 3px 10px;
+    height: 18px;
+  }
+}

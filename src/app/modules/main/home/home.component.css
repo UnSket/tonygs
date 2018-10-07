@@ -21,10 +21,10 @@
 }
 .content .text {
   margin: 30px;
-  border: 1px solid white;
   padding: 10px;
   color: white;
   font-size: 28px;
+  background: rgba(0, 0, 0, .6);
 }
 @media screen and (max-width: 769px) {
   .wrapper .image {
