@@ -13,18 +13,18 @@ export class MusicComponent implements OnInit {
   ngOnInit() {
     this.musicSheet = [
       {
-        description: 'My first project',
-        imgUrl: 'https://i1.sndcdn.com/artworks-000412883376-wrmhqa-t500x500.jpg',
+        description: null,
+        imgUrl: '/assets/images/track1.jpg',
         link: 'https://soundcloud.com/tony-gribsun/start-original-mix'
       },
       {
-        description: 'Описание',
-        imgUrl: '/assets/images/paper.jpg',
+        description: null,
+        imgUrl: '/assets/images/track2.jpg',
         link: 'ya.ru'
       },
       {
-        description: 'Описание',
-        imgUrl: '/assets/images/paper.jpg',
+        description: null,
+        imgUrl: '/assets/images/track3.jpg',
         link: 'ya.ru'
       }
     ];

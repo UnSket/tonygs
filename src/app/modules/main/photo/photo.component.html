@@ -3,7 +3,7 @@
     <div class="paper">
       <div class="image" [style.backgroundImage]="'url(' + photo.imgUrl + ')'"></div>
     </div>
-    <div class="description">
+    <div class="description" *ngIf="photo.description">
       <p>{{photo.description}}</p>
     </div>
   </div >

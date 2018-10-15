@@ -13,16 +13,16 @@ export class PhotoComponent implements OnInit {
   ngOnInit() {
     this.photos = [
       {
-        description: 'Описание',
-        imgUrl: 'http://themocracy.com/wp-content/uploads/2016/12/Parties.jpg'
+        description: null,
+        imgUrl: '/assets/images/photo1.jpg'
       },
       {
-        description: 'Описание',
-        imgUrl: 'http://themocracy.com/wp-content/uploads/2016/12/Parties.jpg'
+        description: null,
+        imgUrl: '/assets/images/photo2.jpg'
       },
       {
-        description: 'Описание',
-        imgUrl: 'http://themocracy.com/wp-content/uploads/2016/12/Parties.jpg'
+        description: null,
+        imgUrl: '/assets/images/photo3.jpg'
       }
     ];
   }
