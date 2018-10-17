@@ -10,18 +10,25 @@ footer {
 .links {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .links a {
   padding: 10px;
   margin: 0 5px;
   z-index: 1;
-  border-radius: 5px;
   text-decoration: none;
   background: rgba(0, 0, 0, .6);
   transition: transform 300ms ease-in-out, background 300ms ease-in-out, color 300ms ease-in, border-color 300ms ease-in;
+  color: white !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .links a img {
   height: 26px;
+}
+.links a:last-child img {
+  margin-right: 10px;
 }
 .links a:hover {
   transform: scale(1.06) translateY(-3%);

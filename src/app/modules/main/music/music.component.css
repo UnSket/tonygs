@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 400px;
   background-color: black;
-  padding: 50px 40px 70px;
+  padding: 80px 40px 70px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -65,6 +65,9 @@
   }
 }
 @media screen and (max-width: 500px){
+  .wrapper {
+    justify-content: center;
+  }
   .wrapper > * {
     flex-basis: 80%;
   }
